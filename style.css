@@ -1,0 +1,129 @@
+html body{
+    background-color: black;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto 10px;
+    margin-top: 4px;
+    
+    
+}
+.nav .logo svg{
+    padding-left: 12px;
+    height: 39px;
+    width: 45px;
+    cursor: pointer;
+}
+.nav button svg{
+    height: 38px;
+    width: 30px;
+    color: #fff;
+
+
+    
+}
+.nav .center{
+    display: flex;
+    gap: 8px;
+    padding-left: 10vw;
+}
+.nav .center button{
+    border-radius: 50%;
+    border: none;
+    height: 48px;
+    width: 48px;
+    background-color: #1f1f1f;
+    cursor: pointer;
+
+}
+.center .input input::placeholder{
+    color: #b3b3b3;
+    padding: 20px;
+    font-size: 15px;
+}
+.center .input input{
+   width: 28vw;
+   height: 7vh;
+   border-radius: 25px;
+   border: none;
+   background-color: #1f1f1f;
+      color: black;
+   font-weight: 600;
+
+  
+   
+}
+
+.last{
+    display: flex;
+    gap: 10px;
+}
+.last button{
+    height: 51px;
+    width: 7vw;
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: medium;
+    margin-right: 16px;
+
+}
+.last .e{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #b3b3b3;
+    
+}
+.last .i{
+    
+    background-color: #fff;
+    color: black
+
+}
+
+.noti svg{
+    height: 3vh;
+    width: 3vw;
+}
+.last .pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background-color: #1f1f1f;
+        border-radius: 50%;
+        cursor: pointer;
+}
+.noti{
+    cursor: pointer;
+}
+.last .pro .in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+
+
+.left{
+    width: 25vw;
+    background-color: #121212;
+    color: #b3b3b3;;
+}
+.right{
+    width: 75vw;
+    background-color: #121212;
+}
